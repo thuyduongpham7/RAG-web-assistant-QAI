@@ -59,7 +59,8 @@ Ce projet illustre la mise en œuvre concrète :
 ├── rag_pipeline.py
 ├── requirements.txt
 ├── .gitignore
-└── README.md
+├── README.md
+└── screenshot.jpg
 ```
 
 ---
