@@ -34,7 +34,7 @@ Ce projet illustre la mise en œuvre concrète :
 
 # 📸 Aperçu de l’application
 
-![Capture de l'application](screenshot.png)
+![Capture de l'application](screenshot.jpg)
 
 ---
 
