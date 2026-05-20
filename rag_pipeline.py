@@ -144,7 +144,7 @@ def build_rag_chain(vectorstore):
         # Cela permet d'éviter de récupérer des chunks
         # peu pertinents.
         #
-        # Très important pour limiter les hallucinations.
+        # Important pour limiter les hallucinations.
         search_type="similarity_score_threshold",
 
         search_kwargs={
@@ -164,7 +164,7 @@ def build_rag_chain(vectorstore):
             # de la question, ils ne seront pas retournés.
             #
             # Cela réduit fortement les réponses inventées.
-            "score_threshold": 0.5
+            "score_threshold": 0.3
         }
     )
 
