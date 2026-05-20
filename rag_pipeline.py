@@ -41,10 +41,7 @@ def split_documents(docs):
     """
     Découpe les documents en plusieurs chunks.
 
-    Pourquoi découper ?
     -------------------
-    Les modèles LLM ne travaillent pas efficacement sur de très
-    longs textes.
 
     Le découpage permet :
     - une meilleure recherche sémantique,
