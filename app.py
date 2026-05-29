@@ -84,7 +84,7 @@ if url:
     # ----------------------------
     # QUESTION INPUT
     # ----------------------------
-    question = st.text_input("Posez votre question")
+    question = st.text_input("Posez votre question (ex: quel est le sujet principal de cette page web ?)")
 
     # ----------------------------
     # SESSION LIMIT CHECK
